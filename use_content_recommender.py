@@ -1,7 +1,4 @@
-import typing as t
-from sample_data import sample_repositories, sample_users, sample_relationships
-from sentence_transformers import SentenceTransformer
-from content_recommender import RecommendableItem, ContentRecommender, GeneralContentDatabase
+from content_recommender import RecommendableItem
 
 
 
