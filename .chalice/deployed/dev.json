@@ -1,0 +1,23 @@
+{
+  "resources": [
+    {
+      "name": "default-role",
+      "resource_type": "iam_role",
+      "role_arn": "arn:aws:iam::881994488054:role/test-dev",
+      "role_name": "test-dev"
+    },
+    {
+      "name": "api_handler",
+      "resource_type": "lambda_function",
+      "lambda_arn": "arn:aws:lambda:us-east-2:881994488054:function:test-dev"
+    },
+    {
+      "name": "rest_api",
+      "resource_type": "rest_api",
+      "rest_api_id": "knjp45d9md",
+      "rest_api_url": "https://knjp45d9md.execute-api.us-east-2.amazonaws.com/api/"
+    }
+  ],
+  "schema_version": "2.0",
+  "backend": "api"
+}
